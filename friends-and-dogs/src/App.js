@@ -2,7 +2,7 @@
 import React from 'react';
 
 // Importing react-router-dom to use the React Router
-import { Route, Switch, BrowserRouter } from 'react-router-dom';
+import { Route, Switch, BrowserRouter, Link } from 'react-router-dom';
 import './App.css';
 
 // import other pages
@@ -52,10 +52,10 @@ class App extends React.Component {
                 <Typography variant="h6" style={styles.title}>
                   Friends and Dog
                 </Typography>
-                <Button class="headerButton">Home</Button>
-                <Button class="headerButton">RequestDogWalk</Button>
-                <Button class="headerButton">Forum</Button>
-                <Button class="headerButton"> FindLocation</Button>
+                <Link to="/" class="Link-page"> Home </Link>
+                <Link to="/requestdogwalk" class="Link-page" > RequestDogWalk </Link>
+                <Link to="/forum" class="Link-page"> Forum </Link>
+                <Link to="/findlocation" class="Link-page"> FindLocation </Link>
               </Toolbar>
           </AppBar>
           <Switch> { /* Similar to a switch statement - shows the component depending on the URL path */ }

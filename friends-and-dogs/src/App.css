@@ -37,9 +37,9 @@
   }
 }
 
-.headerButton {
-  background-color: #808080;
-  color: #ffffff;
+.Link-page {
+  padding: 10px;
+  color: white;
   font-weight: bold;
-  border-radius: 40px;
+  text-decoration: none;
 }

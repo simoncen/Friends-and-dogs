@@ -8,7 +8,7 @@ class FindLocation extends React.Component {
     render() {
       return (
         <div className="home-image">
-            <p> testing </p>
+            <p> testing findlocation </p>
         </div>
       );
     }

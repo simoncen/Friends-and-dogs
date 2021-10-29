@@ -8,7 +8,7 @@ class Forum extends React.Component {
     render() {
       return (
         <div className="home-image">
-            <p> testing </p>
+            <p> testing forum </p>
         </div>
       );
     }

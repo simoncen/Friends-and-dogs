@@ -8,7 +8,7 @@ class Admin extends React.Component {
     render() {
       return (
         <div className="home-image">
-            <p> testing </p>
+            <p> testing admin</p>
         </div>
       );
     }

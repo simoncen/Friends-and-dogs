@@ -8,7 +8,7 @@ class RequestDogWalk extends React.Component {
     render() {
       return (
         <div className="home-image">
-            <p> testing </p>
+            <p> testing requestdogwalk </p>
         </div>
       );
     }

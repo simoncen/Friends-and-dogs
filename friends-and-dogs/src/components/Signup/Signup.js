@@ -8,7 +8,7 @@ class Signup extends React.Component {
     render() {
       return (
         <div className="home-image">
-            <p> testing </p>
+            <p> testing signup </p>
         </div>
       );
     }
